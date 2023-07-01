@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TAREAS.Tarea1.SendMessageActivity">
+
+    <TextView
+        android:id="@+id/Componente1"
+        android:text="Componente 1"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Componente2"
+        android:text="Componente 2"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Componente3"
+        android:text="Componente 3"
+        android:background="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Componente4"
+        android:text="Componente 4"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Componente5"
+            android:text="Componente 5"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/Componente6"
+            android:text="Componente 6"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/Componente7"
+            android:text="Componente 7"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
